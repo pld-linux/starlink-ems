@@ -34,29 +34,29 @@ EMS mo¿na uwa¿aæ za uproszczon± wersjê ERR, nie powi±zan± z ¿adnym
 do systemów parametrów i danych).
 
 %package devel
-Summary:	Header files for EMS library
-Summary(pl):	Pliki nag³ówkowe biblioteki EMS
+Summary:	Header files for EMS libraries
+Summary(pl):	Pliki nag³ówkowe bibliotek EMS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
 Requires:	starlink-cnf-devel
 
 %description devel
-Header files for EMS library.
+Header files for EMS libraries.
 
 %description devel -l pl
-Pliki nag³ówkowe biblioteki EMS.
+Pliki nag³ówkowe bibliotek EMS.
 
 %package static
-Summary:	Static Starlink EMS library
-Summary(pl):	Statyczna biblioteka Starlink EMS
+Summary:	Static Starlink EMS libraries
+Summary(pl):	Statyczne biblioteki Starlink EMS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}
 
 %description static
-Static Starlink EMS library.
+Static Starlink EMS libraries.
 
 %description static -l pl
-Statyczna biblioteka Starlink EMS.
+Statyczne biblioteki Starlink EMS.
 
 %prep
 %setup -q -c
