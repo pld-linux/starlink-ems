@@ -5,8 +5,7 @@ Version:	2.0_7.218
 Release:	1
 License:	non-commercial use and distribution (see EMS_CONDITIONS)
 Group:		Libraries
-#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ems/ems.tar.Z
-Source0:	ems.tar.Z
+Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/ems/ems.tar.Z
 # Source0-md5:	cd30d7ab01dc89c5e05fb7f2f67e5a95
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_EMS.html
 BuildRequires:	sed >= 4.0
