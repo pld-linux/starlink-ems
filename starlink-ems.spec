@@ -37,7 +37,7 @@ do systemów parametrów i danych).
 Summary:	Header files for EMS libraries
 Summary(pl):	Pliki nag³ówkowe bibliotek EMS
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-cnf-devel
 
 %description devel
@@ -50,7 +50,7 @@ Pliki nag³ówkowe bibliotek EMS.
 Summary:	Static Starlink EMS libraries
 Summary(pl):	Statyczne biblioteki Starlink EMS
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink EMS libraries.
