@@ -1,5 +1,5 @@
 Summary:	EMS - Error Message Service
-Summary(pl.UTF-8):   EMS - usługa obsługi błędów
+Summary(pl.UTF-8):	EMS - usługa obsługi błędów
 Name:		starlink-ems
 Version:	2.0_7.218
 Release:	1
@@ -35,7 +35,7 @@ do systemów parametrów i danych).
 
 %package devel
 Summary:	Header files for EMS libraries
-Summary(pl.UTF-8):   Pliki nagłówkowe bibliotek EMS
+Summary(pl.UTF-8):	Pliki nagłówkowe bibliotek EMS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-cnf-devel
@@ -48,7 +48,7 @@ Pliki nagłówkowe bibliotek EMS.
 
 %package static
 Summary:	Static Starlink EMS libraries
-Summary(pl.UTF-8):   Statyczne biblioteki Starlink EMS
+Summary(pl.UTF-8):	Statyczne biblioteki Starlink EMS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
