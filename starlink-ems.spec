@@ -1,5 +1,5 @@
 Summary:	EMS - Error Message Service
-Summary(pl):	EMS - us³uga obs³ugi b³êdów
+Summary(pl.UTF-8):   EMS - usÅ‚uga obsÅ‚ugi bÅ‚Ä™dÃ³w
 Name:		starlink-ems
 Version:	2.0_7.218
 Release:	1
@@ -24,18 +24,18 @@ System, ERR. EMS can be regarded as a simplified version of ERR
 without the binding to any software environment (e.g. for message
 output or access to the parameter and data systems).
 
-%description -l pl
-EMS (Error Message Service) to us³uga obs³ugi b³êdów. Celem EMS jest
-dostarczenie mo¿liwo¶ci konstruowania i przechowywania komunikatów
-b³êdów do pó¼niejszego dostarczenia do u¿ytkownika - zwykle poprzez
-ERR - Starlink Error Reporting System (system raportowania b³êdów).
-EMS mo¿na uwa¿aæ za uproszczon± wersjê ERR, nie powi±zan± z ¿adnym
-¶rodowiskiem programowym (np. do wypisywania komunikatów lub dostêpu
-do systemów parametrów i danych).
+%description -l pl.UTF-8
+EMS (Error Message Service) to usÅ‚uga obsÅ‚ugi bÅ‚Ä™dÃ³w. Celem EMS jest
+dostarczenie moÅ¼liwoÅ›ci konstruowania i przechowywania komunikatÃ³w
+bÅ‚Ä™dÃ³w do pÃ³Åºniejszego dostarczenia do uÅ¼ytkownika - zwykle poprzez
+ERR - Starlink Error Reporting System (system raportowania bÅ‚Ä™dÃ³w).
+EMS moÅ¼na uwaÅ¼aÄ‡ za uproszczonÄ… wersjÄ™ ERR, nie powiÄ…zanÄ… z Å¼adnym
+Å›rodowiskiem programowym (np. do wypisywania komunikatÃ³w lub dostÄ™pu
+do systemÃ³w parametrÃ³w i danych).
 
 %package devel
 Summary:	Header files for EMS libraries
-Summary(pl):	Pliki nag³ówkowe bibliotek EMS
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe bibliotek EMS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-cnf-devel
@@ -43,19 +43,19 @@ Requires:	starlink-cnf-devel
 %description devel
 Header files for EMS libraries.
 
-%description devel -l pl
-Pliki nag³ówkowe bibliotek EMS.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe bibliotek EMS.
 
 %package static
 Summary:	Static Starlink EMS libraries
-Summary(pl):	Statyczne biblioteki Starlink EMS
+Summary(pl.UTF-8):   Statyczne biblioteki Starlink EMS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink EMS libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki Starlink EMS.
 
 %prep
